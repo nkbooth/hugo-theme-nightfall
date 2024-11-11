@@ -5,4 +5,11 @@
 {{ define "main"}}
 <h1>{{ i18n "not_found" }}</h1>
 <p>{{ i18n "not_found_desc" }}</p>
+<h2>You may have wanted some of these destinations</h2>
+<p>
+<ul style="list-style-type: none">
+    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+    <li><a href="/find-me">Find Me</a></li>
+</ul>
+
 {{ end }}

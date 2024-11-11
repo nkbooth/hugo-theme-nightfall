@@ -1,8 +1,8 @@
 [not_found]
-    other = "NOT FOUND"
+    other = "YOU GOT LOST..."
 
 [not_found_desc]
-    other = "You just hit a route that doesn't exist..."
+    other = "Your navigation says that you should make a u-turn and try a different route"
 
 [home]
     other = "Home"
